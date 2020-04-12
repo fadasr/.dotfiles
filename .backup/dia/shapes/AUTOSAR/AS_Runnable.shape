@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+
+    <name>AS_Runnable</name>
+    <icon>AS_Runnable.png</icon>
+
+    <connections>
+        <point x="0" y="0" />
+        <point x="0" y="5" />
+	<point x="0" y="10" />
+	<point x="20" y="0" />
+        <point x="20" y="10" />
+	<point x="40" y="0" />
+	<point x="40" y="5" />
+	<point x="40" y="10" />
+        <point x="20" y="5" main="yes" />
+    </connections>
+
+    <aspectratio type="fixed"/>
+
+    <textbox x1="10" y1="0.2" x2="20" y2="40" />
+
+    <svg:svg width="40" height="10">
+        <svg:rect width="40" height="10" style="fill: background" />
+        <svg:polygon points="39,1 37,1 37.5,1.5 36.5,2.5 37.5,3.5 38.5,2.5 39,3 39,1" style="fill: background"/>
+        <svg:polygon points="36.375,2.625 35.875,3.125 36.875,4.125 37.375,3.625" style="fill: background"/>
+    </svg:svg>
+
+</shape>
